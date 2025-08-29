@@ -41,6 +41,7 @@ void loop()
             String packet = JOINT;
             packet += ":";
             packet += imu.getQuatString(corrected);
+            Serial.println(packet);
 
             ConnectionManager::sendMessage(packet);
         }

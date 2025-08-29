@@ -2,11 +2,11 @@
 #define NETWORK_CONFIG_H
 
 // Wifi
-#define SSID "BELL205"
-#define PASS "2E2229794CA3"
+#define SSID "CVISS"
+#define PASS "snarasim"
 
 // Server IP and port
-#define SERVER_IP "192.168.2.21"
+#define SERVER_IP "192.168.1.132"
 #define SERVER_PORT 4210
 
 #endif

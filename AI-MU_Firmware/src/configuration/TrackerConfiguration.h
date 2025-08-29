@@ -5,9 +5,9 @@
 #define SUIT_ID   "SUIT_001"
 
 // Joint assigned to this tracker
-#define JOINT     "HIP"
+#define JOINT     "CHEST"
 
 // IMU period in milliseconds
-#define IMU_PERIOD_MS 10 // 100 Hz
+#define IMU_PERIOD_MS 10 // 10 ms -> 100 Hz
 
 #endif
